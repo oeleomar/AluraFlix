@@ -1,6 +1,6 @@
 label {
-    font: 400 25px 'Fira Code', monospace;
-    color: white;
+    font: 400 20px 'Fira Code', monospace;
+    color: var(--color-third);
     display: block;
     text-align: center;
     margin-bottom: 15px;

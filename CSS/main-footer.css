@@ -1,0 +1,12 @@
+.main-footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 20px;
+}
+
+.main-footer .title {
+    color: var(--color-third);
+    font-family: inherit;
+    font-size: 25px;
+}

@@ -1,4 +1,4 @@
-h1 {
+.main-title {
     color: var(--color-first);
     text-shadow: 4px 4px 0px var(--color-black-first);
     text-align: center;

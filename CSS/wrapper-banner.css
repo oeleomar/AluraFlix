@@ -1,0 +1,15 @@
+.wrapper-banner{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.wrapper-banner .main-banner {
+    margin-bottom: 10px;
+}
+
+.wrapper-banner .main-caption {
+    width: 186px;
+    text-align: center;
+}

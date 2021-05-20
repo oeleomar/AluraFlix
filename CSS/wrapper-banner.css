@@ -4,17 +4,18 @@
     align-items: center;
     justify-content: center;
     cursor: pointer;
+    transition: 200ms transform ease-in-out;
 }
 
 .wrapper-banner:hover {
     transform: scale(1.1);
-    transition: 100ms transform linear;
+    transition: 400ms transform cubic-bezier(.49,.01,.7,1.51);
 }
 .wrapper-banner .main-banner {
     margin-bottom: 10px;
 }
 
-.wrapper-banner .main-caption {
+figure.wrapper-banner figcaption.main-caption {
     width: 186px;
     text-align: center;
 }

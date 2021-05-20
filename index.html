@@ -20,54 +20,25 @@
         <link rel="stylesheet" href="CSS/main-banner.css">
         <link rel="stylesheet" href="CSS/main-caption.css">
         <link rel="stylesheet" href="CSS/main-footer.css">
+        
     </head>
     <body>
         <h1 class="main-title">AluraFlix</h1>
-        <label class="main-label">Qual o seu filme favorito?</label>
-        <input type="text" class="main-input">
+        <label class="main-label">Nome do filme</label>
+        <input type="text" id="name_film" class="main-input">
+        <label class="main-label">URL da imagem</label>
+        <input type="text" id="url_film" class="main-input">
         
-        <button class="main-button">Adicionar</button>
+        <button class="main-button" onclick="add_banner()">Adicionar</button>
         <section class="list-banners">
             <figure class="wrapper-banner">
-                <img class="main-banner" src="IMG/banner1.jpg" alt="Banner Movie">
-                <figcaption class="main-caption">Nome do Filme</figcaption>
-            </figure>
-            <figure class="wrapper-banner">
-                <img class="main-banner" src="IMG/banner2.jpg" alt="Banner Movie">
-                <figcaption class="main-caption">Nome do Filme</figcaption>
-            </figure>
-            <figure class="wrapper-banner">
-                <img class="main-banner" src="IMG/banner3.jpg" alt="Banner Movie">
-                <figcaption class="main-caption">Nome do Filme</figcaption>
-            </figure>
-            <figure class="wrapper-banner">
-                <img class="main-banner" src="IMG/banner1.jpg" alt="Banner Movie">
-                <figcaption class="main-caption">Nome do Filme</figcaption>
-            </figure>
-            <figure class="wrapper-banner">
-                <img class="main-banner" src="IMG/banner2.jpg" alt="Banner Movie">
-                <figcaption class="main-caption">Nome do Filme</figcaption>
-            </figure>
-            <figure class="wrapper-banner">
-                <img class="main-banner" src="IMG/banner3.jpg" alt="Banner Movie">
-                <figcaption class="main-caption">Nome do Filme</figcaption>
-            </figure>
-            <figure class="wrapper-banner">
-                <img class="main-banner" src="IMG/banner1.jpg" alt="Banner Movie">
-                <figcaption class="main-caption">Nome do Filme</figcaption>
-            </figure>
-            <figure class="wrapper-banner">
-                <img class="main-banner" src="IMG/banner2.jpg" alt="Banner Movie">
-                <figcaption class="main-caption">Nome do Filme</figcaption>
-            </figure>
-            <figure class="wrapper-banner">
-                <img class="main-banner" src="IMG/banner3.jpg" alt="Banner Movie">
-                <figcaption class="main-caption">Nome do Filme</figcaption>
+                <img class="main-banner" alt="Banner Movie">
+                <figcaption class="main-caption">Texto do Filme</figcaption>
             </figure>
         </section>
-        
         <footer class="main-footer">
             <h3 class="title">#ImersaoDev</h3>
         </footer>
+        <script src="/AluraFlix/src/index.js"></script>
     </body>
 </html>
